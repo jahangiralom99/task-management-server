@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Chris S. Jones",
+    "post-time": "2024-03-31T12:00:00",
+    "image": "https://i.ibb.co/sHg6y4n/team-1.jpg  ",
+    "title": "Looking For Freelance Graphic Designer",
+    "description": "Proficiency with Adobe Creative Cloud such as design software including Photoshop Illustrator",
+    "price": 30,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Jimmy R. Lovett",
+    "post-time": "2024-03-30T10:30:00",
+    "image": "https://i.ibb.co/LvQWrNr/team-2.jpg",
+    "title": "Mastering Figma",
+    "description": "Advanced techniques for using Figma in design projects.",
+    "price": 35,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Helen D. Walker",
+    "post-time": "2024-03-29T14:45:00",
+    "image": "https://i.ibb.co/ZRQMmFH/team-3.jpg",
+    "title": "WordPress Development",
+    "description": "Building dynamic websites with WordPress.",
+    "price": 40,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Selena Gomez",
+    "post-time": "2024-03-28T11:20:00",
+    "image": "https://i.ibb.co/CHp2rWW/team-4.jpg",
+    "title": "Creating Art with Coral Draw",
+    "description": "Exploring digital art creation using Coral Draw.",
+    "price": 30,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "David Smith",
+    "post-time": "2024-03-28T11:20:00",
+    "image": "https://i.ibb.co/KhcDsQF/team-5.jpg",
+    "title": "Creating Art with Coral Draw",
+    "description": "Exploring digital art creation using Coral Draw.",
+    "price": 45,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Charlotte Digital",
+    "post-time": "2024-03-28T11:20:00",
+    "image": "https://i.ibb.co/fQJTMJY/team-6.jpg",
+    "title": "Creating Art with Coral Draw",
+    "description": "Exploring digital art creation using Coral Draw.",
+    "price": 50,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Jhone Dep",
+    "post-time": "2024-03-31T12:00:00",
+    "image": "https://i.ibb.co/sHg6y4n/team-1.jpg  ",
+    "title": "Looking For Freelance Graphic Designer",
+    "description": "Proficiency with Adobe Creative Cloud such as design software including Photoshop Illustrator",
+    "price": 30,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Shorna Marks",
+    "post-time": "2024-03-30T10:30:00",
+    "image": "https://i.ibb.co/LvQWrNr/team-2.jpg",
+    "title": "Mastering Figma",
+    "description": "Advanced techniques for using Figma in design projects.",
+    "price": 35,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Kisthofer Kist",
+    "post-time": "2024-03-29T14:45:00",
+    "image": "https://i.ibb.co/ZRQMmFH/team-3.jpg",
+    "title": "WordPress Development",
+    "description": "Building dynamic websites with WordPress.",
+    "price": 40,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Sophia markup",
+    "post-time": "2024-03-28T11:20:00",
+    "image": "https://i.ibb.co/CHp2rWW/team-4.jpg",
+    "title": "Creating Art with Coral Draw",
+    "description": "Exploring digital art creation using Coral Draw.",
+    "price": 30,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "David warnar",
+    "post-time": "2024-03-28T11:20:00",
+    "image": "https://i.ibb.co/KhcDsQF/team-5.jpg",
+    "title": "Creating Art with Coral Draw",
+    "description": "Exploring digital art creation using Coral Draw.",
+    "price": 45,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Karins HAVE",
+    "post-time": "2024-03-28T11:20:00",
+    "image": "https://i.ibb.co/fQJTMJY/team-6.jpg",
+    "title": "Creating Art with Coral Draw",
+    "description": "Exploring digital art creation using Coral Draw.",
+    "price": 50,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Jhone Manual",
+    "post-time": "2024-03-31T12:00:00",
+    "image": "https://i.ibb.co/sHg6y4n/team-1.jpg  ",
+    "title": "Looking For Freelance Graphic Designer",
+    "description": "Proficiency with Adobe Creative Cloud such as design software including Photoshop Illustrator",
+    "price": 30,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Isabella Mila",
+    "post-time": "2024-03-30T10:30:00",
+    "image": "https://i.ibb.co/LvQWrNr/team-2.jpg",
+    "title": "Mastering Figma",
+    "description": "Advanced techniques for using Figma in design projects.",
+    "price": 35,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Walker Olf",
+    "post-time": "2024-03-29T14:45:00",
+    "image": "https://i.ibb.co/ZRQMmFH/team-3.jpg",
+    "title": "WordPress Development",
+    "description": "Building dynamic websites with WordPress.",
+    "price": 40,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  },
+  {
+    "name": "Olivia Ava",
+    "post-time": "2024-03-28T11:20:00",
+    "image": "https://i.ibb.co/CHp2rWW/team-4.jpg",
+    "title": "Creating Art with Coral Draw",
+    "description": "Exploring digital art creation using Coral Draw.",
+    "price": 30,
+    "arrays": ["HTML", "Figma", "WordPress", "Coral Draw"]
+  }
+]
