@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 require("dotenv").config();
-const { MongoClient, ServerApiVersion } = require("mongodb");
+const { MongoClient, ServerApiVersion, ObjectId } = require("mongodb");
 const httpStatus = require("http-status");
 const jwt = require("jsonwebtoken");
 
@@ -65,9 +65,65 @@ async function run() {
       res.send({ token });
     });
 
+    app.post("/api/v1/task-create", verifyToken, async (req, res) => {
+      const taskInfo = req.body;
+      const result = await taskCollection.insertOne(taskInfo);
+      res.send(result);
+    });
+
     // Get api For task Listing
     app.get("/api/v1/task-listing", async (req, res) => {
-      const result = await taskCollection.find().toArray();
+      // pagination
+      const page = Number(req.query.page);
+      const limit = Number(req.query.limit);
+      const skip = (page - 1) * limit;
+
+      const result = await taskCollection
+        .find()
+        .skip(skip)
+        .limit(limit)
+        .toArray();
+      // Count data
+      const total = await taskCollection.estimatedDocumentCount();
+      res.send({
+        total,
+        result,
+      });
+    });
+
+    // get by Id For Task Listing
+    app.get("/api/v1/task-list/:id", verifyToken, async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await taskCollection.findOne(query);
+      res.send(result);
+    });
+
+    // Update task Listing
+    app.patch("/api/v1/task-update/:id", async (req, res) => {
+      const id = req.params.id;
+      const taskInfo = req.body;
+      const filter = { _id: new ObjectId(id) };
+      const updateTask = {
+        $set: {
+          name: taskInfo.name,
+          image: taskInfo.image,
+          title: taskInfo.title,
+          description: taskInfo.description,
+          price: taskInfo.price,
+          postTime: new Date(),
+          // arrays: [taskInfo.arrays],
+        },
+      };
+      const result = await taskCollection.updateOne(filter, updateTask);
+      res.send(result);
+    });
+
+    // deleted task
+    app.delete("/api/v1/task-list/:id", verifyToken, async (req, res) => {
+      const id = req.params.id;
+      const query = { _id: new ObjectId(id) };
+      const result = await taskCollection.deleteOne(query);
       res.send(result);
     });
 
