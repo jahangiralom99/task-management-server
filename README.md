@@ -1,7 +1,7 @@
 
 # Task management
 
-Build a task management application using the MERN (MongoDB, Express.js, React.js, Node.js) stack. The application should allow users to perform CRUD operations on tasks, register accounts, log in, and exclusively manage their own tasks. Pagination and input validation are mandatory.
+Build a task management application using the MERN (MongoDB, Express.js, React.js, Node.js, Tailwincss) stack. The application should allow users to perform CRUD operations on tasks,register accounts, log in, and exclusively manage their own tasks. Pagination and input validation are mandatory.
 
 
 ## Features
